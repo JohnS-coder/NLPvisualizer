@@ -1,0 +1,41 @@
+.non-ner {
+    /* color: var(--primary-color-text-dark); */
+    color: black;
+  }
+  :global(body.dark-mode) .non-ner {
+    /* color: var(--primary-color-text); */
+    color: black;
+  }
+  
+  .entity-wrapper {
+    display: inline-grid;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 2px 5px 2px;
+    padding: 1px;
+  }
+  .entity-name {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif !important;
+    background: #f1f2f3;
+    border-width: medium;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 2px 5px;
+    display: block;
+    margin: 3px 2px;
+  }
+  .entity-type {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    padding: 3px 5px;
+  }
+  
+  
